@@ -1,0 +1,21 @@
+{
+  "name": "poker-server",
+  "version": "1.0.0",
+  "description": "Server dedicated for poker game application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "author": "Jakub Marczak",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
